@@ -1,0 +1,215 @@
+/**
+ * Базовые стили для всего сайта
+ */
+body {
+	position: relative;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.4;
+	color: #000;
+	min-width: 320px;
+	overflow-x: hidden;
+	height: auto;
+}
+
+.navbar {
+	width: 100%;
+	height: 70px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+
+}
+
+.navbar .container {
+	height: inherit;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbar-menu {
+	list-style-type: none;
+	padding-left: 0;
+	margin-bottom: 0;
+}
+
+.navbar-menu li{
+	display: inline-block;
+}
+
+.navbar-menu a{
+	border-bottom: 3px solid #fff;
+	display: inline-block;
+	color: #000;
+	opacity: 0.6;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.navbar-menu a:hover{
+	border-bottom: 3px solid black;
+	transition: all .07s ease-in-out;
+}
+
+.navbar-wrap {
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.callbeckVK {
+	margin-left: 30px;
+	padding: 10px;
+	text-decoration: none;
+	background-color: blue;
+	border-radius: 100px;
+	color: #fff;
+	box-shadow: 0 4px 6px rgba(0, 0, 255, .2);
+}
+
+
+.callbeckVK:hover {
+	color: #fff;
+	transform: scale(1.10);
+	transition: all .1s ease-in-out;
+	box-shadow: 0 12px 12px rgba(0, 0, 255, .2);
+}
+
+.navbar-logo {
+	font-weight: 700;
+	text-decoration: none;
+	font-size: 26pt;
+	color: #000;
+}
+
+.navbar-logo:hover {
+	border: 1px solid black;
+	background-color: #000;
+	border-radius: 100%;
+	color: #fff;
+	transition: all .1s ease-in-out;
+}
+
+.header {
+	position: relative;
+	min-height: 1000px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.header-content {
+	text-align: center;
+	position: relative;
+	z-index: 2;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .6);
+}
+
+.header .row {
+	min-height: 1000px;
+	display: flex;
+	align-items: center;
+}
+
+.header-content h1 {
+	font-size: 36px;
+	font-weight: 700;
+	margin-bottom: 10px;
+	color: #fff;
+}
+
+.header-content h4 {
+	font-size: 21px;
+	font-weight: 500;
+	margin-bottom: 10px;
+	opacity: 0.7;
+	color: #fff;
+}
+
+.btn-main {
+	font-weight: 700;
+	margin-top: 50px;
+	display: inline-block;
+	text-decoration: none;
+	color: #000;
+	background-color: wheat;
+	border: 1px solid wheat;
+	padding: 20px 40px;
+	border-radius: 100px;
+	box-shadow: 0 6px 10px rgba(245, 222, 179, .3);
+}
+
+.btn-main:hover {
+	font-weight: 1000;
+	transform: scale(1.20);
+	color: #fff;
+	background-color: coral;
+	transition: all .1s ease-in-out;
+	box-shadow: 0 10px 14px rgba(245, 222, 179, .6);
+}
+
+.logo a{
+	text-decoration: none;
+	font-size: 30pt;
+	border: 1px solid black;
+	background-color: #000;
+	border-radius: 100%;
+	color: #fff;
+}
+
+.product {
+	text-align: center;
+}
+
+.image {
+	margin-bottom: 10px;
+}
+
+.image img {
+	border-radius: 10px;
+}
+
+.info {
+	text-align: center;
+}
+
+.info h3 {
+	font-size: 21px;
+	font-weight: 700;
+	margin-bottom: 0;
+}
+
+
+.install {
+	background-color: blue;
+	border-radius: 100px;
+	border: 1px solid blue;
+	padding: 0 10px;
+	text-decoration: none;
+	color: #fff;
+	box-shadow: 0 10px 16px rgba(0, 0, 255, .2);
+	transition: all .1s ease-in-out;
+}
+
+.install:hover {
+	background-color: green;
+	border-color: green;
+	color: #fff;
+}
+
+.containerSoon {
+	text-align: center;
+}
+
+/**
+ * Другие стили
+ */
+
+
+
